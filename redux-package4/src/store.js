@@ -1,7 +1,5 @@
-import { createStore } from "redux";
-import countReducer from "./CountReducer";
+import cartReducer from "./CartReducer";
+import { createStore } from 'redux'
 
-const store = createStore(countReducer)
-
-
-export default store;
+const store = createStore(cartReducer);
+export default store
